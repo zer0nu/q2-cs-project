@@ -121,14 +121,12 @@ body{
 .mode{
 	position: absolute;
 	bottom: 10px;
-	button {
    	background-color: Transparent;
    	background-repeat:no-repeat;
    	border: none;
    	cursor:pointer;
    	overflow: hidden;
    	outline:none;
-}
 }
 .footer #andoy {
 	color: white;
