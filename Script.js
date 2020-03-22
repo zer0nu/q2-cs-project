@@ -10,11 +10,11 @@ function confpw(){
 //function that changes picture upon login
 function changepic(){
 	pic = document.getElementById("switch").value
-	localStorage.pic = pic
+	sessionStorage.pic = pic
 	document.getElementById("user").src = pic
 }
-if (localStorage.pic != null){
-	pic = localStorage.pic
+if (sessionStorage.pic != null){
+	pic = sessionStorage.pic
 	document.getElementById("user").src = pic
 }
 //function for theme change
