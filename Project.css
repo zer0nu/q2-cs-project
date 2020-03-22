@@ -1,0 +1,596 @@
+/* global */
+
+* {
+    font-family: Roboto;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+.container {
+    min-height: 100%;
+}
+
+
+/*template*/
+
+
+/* header */
+
+.header {
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 1px;
+    position: relative;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logos {
+    width: 150px;
+    display: block;
+}
+
+#logoitself {
+    font-family: Merriweather;
+    font-size: 22px;
+    letter-spacing: 0px;
+}
+
+.headerbutton {
+    position: relative;
+    display: block;
+    width: 110px;
+    margin: 0;
+}
+
+.headerbtnclass {
+    font-size: 16px;
+    color: black;
+    transition: 0.5s;
+}
+
+.headerbtnclass:hover {
+    color: #54b948;
+    transition: 0.5s;
+    letter-spacing: 1.2px;
+}
+
+#user {
+    height: 30px;
+    position: relative;
+    top: -304px;
+    left: 1255px;
+    border-radius: 50%;
+}
+
+.nohover {
+    position: relative;
+    display: block;
+    width: 110px;
+    margin: 0;
+}
+
+.nohover2 {
+    font-size: 16px;
+    color: black;
+}
+
+
+/*footer*/
+
+.footer {
+    width: 100%;
+    margin-top: 20px;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: darkgray;
+    bottom: 0px;
+    position: relative;
+    clear: both;
+}
+
+#likewhat {
+    position: relative;
+    left: 30px;
+    bottom: -10px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+
+/* css for HomePage.html */
+
+
+/* main part */
+
+#students {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.mainpart {
+    position: relative;
+}
+
+#welcomewords {
+    font-size: 70px;
+    animation-name: appear;
+    animation-duration: 2s;
+}
+
+#welcome {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+#introductory {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    max-width: 600px;
+    text-align: center;
+    animation-name: appear;
+    animation-duration: 4s;
+    display: block;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+/*app*/
+
+#checkout {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1.5px;
+    width: 97%;
+    margin: auto;
+    margin-top: 385px;
+    height: 350px;
+}
+
+#Our {
+    font-size: 38px;
+    position: absolute;
+    left: 437px;
+    top: 1212px;
+    color: darkslategray;
+    transition: 0.5s;
+    letter-spacing: 0.8px;
+}
+
+#Our:hover {
+    transition: 0.5s;
+    color: #54b948;
+}
+
+#app {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: #54b948;
+    left: 50px;
+    top: 25px;
+    border-radius: 65px;
+}
+
+#apptext {
+    font-family: Merriweather;
+    font-size: 90px;
+    margin: 0px 0px 0px 40px;
+    top: 70px;
+    line-height: 90px;
+    color: white;
+    position: relative;
+}
+
+#plus {
+    font-family: Merriweather;
+    font-size: 107px;
+    top: -283px;
+    color: black;
+    left: 195px;
+    position: relative;
+    color: white;
+}
+
+#laptop {
+    width: 350px;
+    position: absolute;
+    left: 580px;
+    top: 1340px;
+}
+
+#phone {
+    width: 100px;
+    position: absolute;
+    top: 1340px;
+    left: 950px;
+}
+
+
+/* aftermain */
+
+#secondpart {
+    margin-top: 14px;
+}
+
+#leftheading,
+#rightheading {
+    position: relative;
+    font-size: 28px;
+    left: 21px;
+    top: -10px;
+    transition: 3s;
+    color: black;
+}
+
+#leftheading:hover {
+    color: #54b948;
+    letter-spacing: 1.2px;
+    transition: 2s;
+}
+
+.left:hover {
+    opacity: 0.9;
+    transition: 2s;
+}
+
+#rightheading:hover {
+    color: #54b948;
+    transition: 2s;
+    letter-spacing: 1.2px;
+}
+
+.right:hover {
+    opacity: 0.9;
+    transition: 2s;
+}
+
+.left {
+    width: 48.3%;
+    height: 350px;
+    float: left;
+    border-style: solid;
+    border-color: darkgray;
+    background-image: url(https://neatoday.org/wp-content/uploads/2016/09/student_stress-e1473787999876.jpeg);
+    border-width: 2px;
+    margin-left: 19px;
+    transition: 2s;
+}
+
+.right {
+    width: 48.29%;
+    height: 350px;
+    float: right;
+    border-style: solid;
+    border-color: darkgray;
+    border-width: 2px;
+    background-image: url(Sosyal.png);
+    margin-right: 19px;
+    transition: 2s;
+}
+
+
+/* css for The Problem.html */
+
+#Problempicture {
+    width: 100%;
+    opacity: 0.72;
+    max-height: 750px;
+}
+
+#problemintroductory {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    max-width: 600px;
+    text-align: center;
+    animation-name: appear;
+    animation-duration: 4s;
+    display: block;
+}
+
+#suicidestatistics {
+    margin: 100px 120px 100px 120px;
+    position: relative;
+}
+
+#suicidestatistics div p {
+    position: relative;
+    left: 355px;
+    top: -413px;
+}
+
+#problemarticles {
+    position: relative;
+}
+
+.problemarticleheading {
+    font-size: 40px;
+}
+
+.problemarticletext {
+    font-size: 18px;
+    position: relative;
+    letter-spacing: 1.2px;
+    line-height: 27px;
+}
+
+#afterproblem {
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 1.5px;
+    margin: 50px 50px 50px 50px;
+    max-height: 585px;
+}
+
+.TheProblemfooter {
+    width: 100%;
+    margin-top: 0px;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: darkgray;
+    bottom: -1200px;
+    position: absolute;
+    clear: both;
+}
+
+
+/* css for Our Solution.html */
+
+#solutionwelcome {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+}
+
+#solutionintroductory {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+    max-width: 600px;
+    text-align: center;
+    animation-name: appear;
+    animation-duration: 4s;
+    display: block;
+}
+
+.Solutionfooter {
+    width: 100%;
+    margin-top: -4px;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: darkgray;
+    bottom: 0px;
+    position: relative;
+    clear: both;
+}
+
+
+/* CSS for Feedback.html and Join Us.html */
+
+input[type=text]:focus,
+input[type=email]:focus,
+input[type=password]:focus,
+input[type=tel]:focus,
+input[type=date]:focus {
+    background-color: #54b948;
+}
+
+.forms {
+    width: 1240px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+input[type=text],
+input[type=email],
+input[type=password],
+input[type=tel] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #555;
+    outline: none;
+    border-radius: 5px;
+}
+
+input[type=button],
+[type=submit] {
+    height: 50px;
+    width: 200px;
+    font-size: 16px;
+    border-style: solid;
+    border-radius: 25px;
+    position: relative;
+    left: 520px;
+    top: 20px;
+    color: white;
+    background-color: #54b948;
+}
+
+.field {
+    border-radius: 10px;
+    border-color: lightgray;
+    background: linear-gradient(to bottom, whitesmoke, white, whitesmoke, white);
+}
+
+
+/* CSS for FAQs.html and Our Vision.html */
+
+.FACTS {
+    top: 80px;
+    position: relative;
+    width: 1150px;
+    height: 1400px;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+}
+
+.FACTS h4 {
+    text-align: center;
+    font-size: 35px;
+    left: 6.6%;
+    position: relative;
+    color: #54b948;
+    border-style: solid;
+    border-color: gainsboro;
+    width: 1000px;
+    border-width: 0;
+    border-bottom-width: 2px;
+    padding-bottom: 20px;
+}
+
+.SFACTS h4 {
+    text-align: center;
+    font-size: 35px;
+    left: 6.6%;
+    position: relative;
+    color: #54b948;
+    border-style: solid;
+    border-color: gainsboro;
+    width: 1000px;
+    border-width: 0;
+    border-bottom-width: 2px;
+    padding-bottom: 20px;
+}
+
+.FACTS p {
+    text-align: center;
+    font-size: 20px;
+    left: 6.6%;
+    position: relative;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+.SFACTS p {
+    text-align: center;
+    font-size: 20px;
+    left: 6.6%;
+    position: relative;
+    width: 1000px;
+    margin-bottom: 100px;
+}
+
+.FAQsfooter {
+    width: 100%;
+    margin-top: 0px;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: darkgray;
+    bottom: -1040px;
+    position: absolute;
+    clear: both;
+}
+
+.OurVisionfooter {
+    width: 100%;
+    margin-top: 0px;
+    height: 70px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: darkgray;
+    bottom: -1230px;
+    position: absolute;
+    clear: both;
+}
+
+.SFACTS {
+    top: 80px;
+    position: relative;
+    width: 1150px;
+    height: 1580px;
+    margin: auto;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gainsboro;
+}
+
+
+/* css for About Us.html */
+
+.author{    
+    width: 30.813%;
+    height: 700px;
+    margin: 1px;
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darkgray;
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+}
+
+.dps{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #27f2a1;
+    border-width: 3.2px;
+    padding: 4px;
+}
+
+#meet{
+    width: 97.5%;
+    height: 50px;
+    vertical-align: middle;
+}
+
+#meet h6{
+    letter-spacing: 2px;
+    font-size: 33px;
+    position: relative;
+    bottom: 76px;
+}
+
+/* css for app building */
+
+.Phoness{
+    width: 230px;
+    height: 460px;
+}
