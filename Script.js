@@ -20,7 +20,7 @@ if (sessionStorage.pic != null){
 //function for theme change
 counter = 0
 function changetheme(){
-	counter++
+	counter = counter + 1
 	if (counter == 1){
 		document.getElementsByClassName("header")[0].style.backgroundColor = "#FFCCCB"
 		document.getElementsByClassName("footer")[0].style.backgroundColor = "#FFCCCB"
@@ -60,7 +60,8 @@ function changetheme(){
 		document.getElementsByClassName("author")[2].style.backgroundColor = "#90EE90"
 		document.getElementsByClassName("author")[3].style.backgroundColor = "#90EE90"
 	}
-	else if (counter == 4 && counter == 0){
+	else if (counter == 4){
+		counter = 0
 		document.getElementsByClassName("header")[0].style.backgroundColor = "#FFFFFF"
 		document.getElementsByClassName("footer")[0].style.backgroundColor = "#FFFFFF"
 		document.getElementsByClassName("FAQsfooter")[0].style.backgroundColor = "#FFFFFF"
@@ -72,6 +73,5 @@ function changetheme(){
 		document.getElementsByClassName("author")[1].style.backgroundColor = "#FFFFFF"
 		document.getElementsByClassName("author")[2].style.backgroundColor = "#FFFFFF"
 		document.getElementsByClassName("author")[3].style.backgroundColor = "#FFFFFF"
-		counter = 0
 	}
 }
