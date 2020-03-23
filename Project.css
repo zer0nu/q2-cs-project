@@ -523,6 +523,7 @@ input[type=button],
     bottom: -1040px;
     position: absolute;
     clear: both;
+	background-color: #FFFFFF;
 }
 
 .OurVisionfooter {
