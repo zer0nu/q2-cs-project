@@ -47,3 +47,4 @@ function changetheme(){
 		document.getElementsByClassName("OurVisionfooter")[0].style.backgroundColor = "#FFFFFF"
 	}
 }
+document.getElementById("templatechange").addEventListener("click", changetheme)
